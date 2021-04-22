@@ -6,12 +6,17 @@
   "scripts": {
     "start": "node src/app.js"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "hbs": "^4.1.2",
     "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
